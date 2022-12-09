@@ -1,0 +1,17 @@
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+.light-mode {
+  background-color: #eee;
+  color: #222;
+  transition: all 1.5s ease-in-out;
+}
+
+.inner-link,
+.inner-link:hover,
+.inner-link:active,
+.inner-link:visited {
+  color: inherit;
+}
